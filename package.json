@@ -1,7 +1,7 @@
 {
-  "name": "awsecommerceservicelib",
+  "name": "swaggerpetstorelib",
   "version": "1.0.0",
-  "description": "TODO : Enter description",
+  "description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib"
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "APIMATIC SDK Generator",
   "bugs": {
-    "email": "support@apimatic.io"
+    "email": "apiteam@swagger.io"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
@@ -18,9 +18,10 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3"
   },
-  "dependencies": {
+    "dependencies": {
     "request": "^2.55.0",
-    "moment": "^2.17.1"
+    "moment": "^2.17.1",
+    "fs": "0.0.1-security"
   },
   "eslintConfig": {
     "extends": "airbnb",
